@@ -249,6 +249,7 @@ for(i in clothing){
 
   const Img = document.createElement("img");
   Img.src = clothing[i].preview;
+  Img.setAttribute("alt", "Images");
   Img.style.cssText = "width: 100%;"
 
   const title = document.createElement("div")
@@ -287,6 +288,7 @@ console.log(accessories[i].name)
 
   const Img = document.createElement("img");
   Img.src = accessories[i].preview;
+  Img.setAttribute("alt", "Images");
   Img.style.cssText = "width: 100%;"
 
   const title = document.createElement("div")
