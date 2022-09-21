@@ -224,6 +224,8 @@ var productList = [
 const clothing = productList.filter((i)=>!i.isAccessory);
 const accessories = productList.filter((i)=>i.isAccessory);
 
+console.log(clothing)
+
 const mainCardC = document.getElementById("clothe-section");
 mainCardC.style.cssText = "margin: 5% 5% 0 5%;"
 const mainCardA = document.getElementById("access-section");
