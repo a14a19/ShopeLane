@@ -224,7 +224,8 @@ var productList = [
 const clothing = productList.filter((i)=>!i.isAccessory);
 const accessories = productList.filter((i)=>i.isAccessory);
 
-console.log(clothing)
+console.log("Clothings =>", clothing)
+console.log("Accessories =>", accessories);
 
 const mainCardC = document.getElementById("clothe-section");
 mainCardC.style.cssText = "margin: 5% 5% 0 5%;"
@@ -274,7 +275,7 @@ for(i in clothing){
 }
 
 for(i in accessories){
-console.log(accessories[i].name)
+// console.log(accessories[i].name)
 
   const mainCard = document.createElement("div");
   mainCard.setAttribute("class","access-card")
